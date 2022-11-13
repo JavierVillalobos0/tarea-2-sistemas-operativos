@@ -6,6 +6,8 @@
 #include <sstream>
 #include <fstream>
 int leer (int * argc, char *argv[]){
+  //Esta función lee el archivo que se le entrega por parametro
+  //y realiza el ping a la ip
    FILE *fp = fopen( argv[1], "r");
     char line[11];
         
